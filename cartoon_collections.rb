@@ -19,9 +19,9 @@ def long_planeteer_calls(calls)
   
 end
 
-def find_the_cheese(cheeses)
-  cheeses.each do |cheese|
-    if cheeses.include?(cheese)
+def find_the_cheese(cheese_types)
+  cheese_types.each do |cheese|
+    if cheese_types.include?(cheese)
       return cheese
     end
   end
